@@ -1,5 +1,5 @@
 {
-  "name": "@passthru/x.com-mcp-server",
+  "name": "x-com-mcp-server",
   "version": "1.0.0",
   "description": "MCP server implementation for X.com API with OAuth 2.0 support",
   "main": "dist/index.js",

@@ -4,7 +4,6 @@ import { z } from "zod";
 import {
   ListToolsRequestSchema,
   CallToolRequestSchema,
-  Tool,
 } from "@modelcontextprotocol/sdk/types.js";
 
 // Validation schemas for X.com API endpoints
@@ -394,7 +393,7 @@ class XComAPI {
 }
 
 // Define tools for X.com API
-const TOOLS: Record<string, Tool> = {
+const TOOLS: Record<string, any> = {
   getSinglePost: {
     name: "getSinglePost",
     description: "Retrieve a single post by ID with optional field expansions",
